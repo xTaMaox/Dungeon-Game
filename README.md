@@ -15,3 +15,22 @@ Note that any room can contain threats or power-ups, even the first room the kni
  
 
 Example 1:
+
+![dungeon-grid-1](https://user-images.githubusercontent.com/88260025/215342912-899ba2c6-ba33-4178-937c-b52255263627.jpg)
+
+Input: dungeon = [[-2,-3,3],[-5,-10,1],[10,30,-5]]
+Output: 7
+Explanation: The initial health of the knight must be at least 7 if he follows the optimal path: RIGHT-> RIGHT -> DOWN -> DOWN.
+
+Example 2:
+
+Input: dungeon = [[0]]
+Output: 1
+ 
+
+Constraints:
+
+m == dungeon.length
+n == dungeon[i].length
+1 <= m, n <= 200
+-1000 <= dungeon[i][j] <= 1000
